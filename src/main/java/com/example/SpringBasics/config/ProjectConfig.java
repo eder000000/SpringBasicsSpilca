@@ -14,4 +14,14 @@ public class ProjectConfig {
         return p;
     }
 
+    @Bean
+    String hello() {
+        return "Hello, World!";
+    }
+
+    @Bean
+    Integer ten() {
+        return 10;
+    }
+
 }
