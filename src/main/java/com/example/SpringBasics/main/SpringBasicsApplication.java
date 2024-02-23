@@ -12,6 +12,7 @@ public class SpringBasicsApplication {
 
 	var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 		Parrot parrot = context.getBean(Parrot.class);
+		System.out.println(parrot);
 		System.out.println(parrot.getName());
 
 	}
