@@ -1,6 +1,6 @@
-package com.example.SpringBasics;
+package com.example.SpringBasics.main;
 
-import org.springframework.boot.SpringApplication;
+import com.example.SpringBasics.objects.Parrot;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
